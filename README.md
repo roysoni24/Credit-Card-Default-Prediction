@@ -3,8 +3,7 @@
 ![CC IMAGE](https://user-images.githubusercontent.com/100474431/173319902-75a028c2-0e04-4603-ab5c-0d47ddc2922a.jpeg)
 ## **Predicting whether a customer will default on his/her credit card**
 
-This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. We can use the K-S chart to evaluate which customers will default on their credit card payments.
-
+This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. 
 ## **Data Description**
 
 This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following 23 variables as explanatory variables:
@@ -47,5 +46,13 @@ accuracy score of 87% and AUC is 0.873.
 
 4. Cross validation and hyperparameter tunning certainly reduces chances of
 overfitting and also increases performance of model.
+
+## **Credits**
+Soni Rani | Data Scientist | Machine Learning Enthusiast
+
+## **References**
+Using SMOTE - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+
+XGBoost Documentation - https://xgboost.readthedocs.io/en/stable/
   
   
