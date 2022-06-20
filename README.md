@@ -1,7 +1,9 @@
 # Credit Card Default Prediction
 **AlmaBetter Verfied Project**
 ![CC IMAGE](https://user-images.githubusercontent.com/100474431/173319902-75a028c2-0e04-4603-ab5c-0d47ddc2922a.jpeg)
-## **Predicting whether a customer will default on his/her credit card**
+
+# 📋 Problem Statement
+### **Predicting whether a customer will default on his/her credit card**
 
 This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. 
 ## **Data Description**
@@ -33,7 +35,54 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
   
   Model Prediction
   
-  ## **Conclusion**
+ ## 💾 Project Files Description
+ 
+This Project includes 1 colab notebook and 1 Pdf of presentation.
+
+### **Executable Files:**
+
+[Credit-Card-Default-Prediction](https://github.com/roysoni24/Credit-Card-Default-Prediction/blob/main/Credit_Card_Default_Prediction_Capstone_Project.ipynb) - Includes Exploratory Data Analysis and all algorithms which are used in this project.
+
+[credit card default prediction.pdf ](https://github.com/roysoni24/Credit-Card-Default-Prediction/blob/main/credit%20card%20default%20prediction.pdf)- Includes pdf of the presentation of the project.
+
+### **Output:**
+
+[Google Colab](https://github.com/roysoni24/Credit-Card-Default-Prediction/blob/main/Credit_Card_Default_Prediction_Capstone_Project.ipynb) - All the outputs are visible in the provided colab notebook.
+
+## 📋 **Execution Instruction**
+
+The order of execution of the colab notebook is as follows:
+
+**1) Credit_Card_Default_Prediction_Capstone_Project.ipynb**
+
+First, click on the open in colab button present on the top center of the notebook.
+
+In this .ipynb file, we have -
+
+• EDA on credit card default prediction.
+
+• Handling class imbalance 
+
+• Fitting different models and cross validate them.
+
+**2) Kaggle Dataset**
+
+Downlaod the dataset from kaggle through provided link.Then, connect to the runtime and execute the cell to mount the drive or upload the data file to the current runtime.
+
+**3) Cell Path**
+
+Finally, delete the path in the dataset loading cell and replace it with the path of your current data file. Run each cell to see the output below it.
+
+## **Algorithms**
+
+1. XG Boosting
+2. Gradient Boosting
+3. Support Vector Machine
+4. Random Forest Classifier
+5. Decision Tree Classifier
+6. Logistic Regression
+  
+## **Conclusions**
   
  1. From all baseline model, Random Forest classifier shows highest test accuracy
 and F1 score and AUC.
@@ -47,12 +96,14 @@ accuracy score of 87% and AUC is 0.873.
 4. Cross validation and hyperparameter tunning certainly reduces chances of
 overfitting and also increases performance of model.
 
-## **Credits**
+## 📜 **Credits**
 Soni Rani | Data Scientist | Machine Learning Enthusiast
 
-## **References**
+## 📚 **References**
 Using SMOTE - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 
 XGBoost Documentation - https://xgboost.readthedocs.io/en/stable/
+
+SVM - https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
   
   
