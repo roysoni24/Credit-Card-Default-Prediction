@@ -97,7 +97,7 @@ accuracy score of 87% and AUC is 0.873.
 overfitting and also increases performance of model.
 
 ## 📜 **Credits**
-Soni Rani | Data Scientist | Machine Learning Enthusiast
+Soni Rani | Vivek Kumar | Suraj Singh
 
 ## 📚 **References**
 Using SMOTE - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
